@@ -195,7 +195,6 @@ body {
 
 .projects {
   height: 100%;
-  /* background-color: green; */
 }
 
 .cards {
@@ -211,7 +210,6 @@ body {
   display: grid;
   grid-template-rows: 1fr 200px;
   align-self: start;
-  /* background-color: blue; */
 }
 
 .card,
@@ -238,7 +236,7 @@ body {
 }
 
 hr {
-  color: #6E6E6E;
+  border-top: 1px solid #c7c7c7;
   margin: 10px 0;
 }
 
@@ -247,14 +245,15 @@ hr {
   width: 280px;
   height: 170px;
   grid-template-rows: 5fr 1fr;
-  align-items: center;
+  align-items: start;
   padding: 0 20px;
   border-left: 9px solid #4B6BB2;
 }
 
 .card-title {
   font-size: 0.9rem;
-  font-weight: 700;;
+  font-weight: 700;
+  padding-top: 25px;
 }
 
 .card-content {
@@ -266,6 +265,7 @@ hr {
   display: flex;
   justify-content: end;
   gap: 20px;
+  padding: 10px 8px;
 }
 
 .card-btn {
