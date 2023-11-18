@@ -35,7 +35,7 @@ body {
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr;
   height: 100vh;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 /* Sidebar */
@@ -154,11 +154,11 @@ body {
 }
 
 .header-icon {
-  width: 25px;
+  width: 23px;
 }
 
 .account-image {
-  width: 40px;
+  width: 38px;
 }
 
 .header-buttons {
@@ -207,8 +207,6 @@ body {
   margin-top: 8px;
 }
 
-
-
 .announcements-trending {
   display: grid;
   grid-template-rows: 1fr 200px;
@@ -220,6 +218,8 @@ body {
 .announcement-card,
 .trending-card {
   background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgb(203, 202, 202);
 }
 
 .announcement-card,
@@ -245,10 +245,11 @@ hr {
 .card {
   display: grid;
   width: 280px;
-  height: 168px;
+  height: 170px;
   grid-template-rows: 5fr 1fr;
   align-items: center;
   padding: 0 20px;
+  border-left: 9px solid #4B6BB2;
 }
 
 .card-title {
@@ -274,7 +275,7 @@ hr {
 }
 
 .trending {
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .trending-card {
